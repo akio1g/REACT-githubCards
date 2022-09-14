@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: left;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  gap: 10px;
+}
+
+form > input {
+  width: 100%;
+}
+
+.CardDiv {
+  display: flex;
+  max-width: 100%;
+  border: solid 1px #FFF;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.CardDiv > img {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+.CardDiv > div {
+  padding: 5px;
+  text-align: left;
+}
